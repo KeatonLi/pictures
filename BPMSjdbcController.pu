@@ -1,0 +1,19 @@
+@startuml
+title BASEURL + "BPMSJdbc/UpdateVendorInfoListByNumber"
+actor   用户 as User
+control BPMSJdbcController as Control
+database JDBCUtils as jdbc
+control BPMSJdbcService as service
+entity R as entity
+User -> Control : 通过传入json参数isUpdate与VendorNumberList
+Control -> Control : 处理传入的json信息，拼接SQL语句
+Control --> jdbc : 将传入的SQL语句提交数据库
+jdbc --> Control : 返回查询信息
+Control -> Control : 将查询信息封装成List
+Control --> service : 如果"1".equals(isUpdate) 将查询出来的list数据同步到数据库中
+service --> Control
+Control -> R : 将之前查询的List数据出来数据放入返回类
+R --> Control
+Control --> User : 返回
+
+@enduml
