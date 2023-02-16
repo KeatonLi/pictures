@@ -1,5 +1,5 @@
 @startuml
-title BASEURL + "BPMSJdbc/UpdateVendorInfoListByNumber"
+title 访问地址 ： BASEURL + "BPMSJdbc/UpdateVendorInfoListByNumber"
 actor   用户 as User
 control BPMSJdbcController as Control
 database JDBCUtils as jdbc
