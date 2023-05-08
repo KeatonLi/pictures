@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T17:42:23.831Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="CC0zRP3FIZ56t0bSxvDw" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-08T17:43:20.454Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="hub1j8YiW2VsUMsn7AXt" version="21.2.9" type="github">
   <diagram name="第 1 页" id="-W-8R0ckHdeFrU8T1a97">
     <mxGraphModel dx="1186" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -113,6 +113,9 @@
         </mxCell>
         <mxCell id="QMWtIcO35gSWXXG2NMT5-36" value="..." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="970" y="600" width="80" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="QMWtIcO35gSWXXG2NMT5-42" value="消息逻辑处理模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="620" y="540" width="100" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
