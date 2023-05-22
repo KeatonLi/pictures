@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T07:35:19.699Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="53sC9CtbcoRb-0yCrgdI" version="21.3.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T07:41:39.057Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="n9WMCgDS2IE6O5lfCOd2" version="21.3.0" type="github">
   <diagram name="第 1 页" id="jk-R8cC18qzZbHOJqEW3">
     <mxGraphModel dx="1395" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -38,10 +38,10 @@
         <mxCell id="RGTXVKNauoMagb4iy2KB-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-6" target="RGTXVKNauoMagb4iy2KB-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RGTXVKNauoMagb4iy2KB-6" value="消息模板模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RGTXVKNauoMagb4iy2KB-6" value="消息模板模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="200" y="250" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RGTXVKNauoMagb4iy2KB-8" value="渠道账号模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RGTXVKNauoMagb4iy2KB-8" value="渠道账号模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="320" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGTXVKNauoMagb4iy2KB-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-11" target="RGTXVKNauoMagb4iy2KB-34">
@@ -59,7 +59,7 @@
             <mxPoint x="550" y="390" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGTXVKNauoMagb4iy2KB-11" value="消息链路查询模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RGTXVKNauoMagb4iy2KB-11" value="消息链路查询模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="440" y="250" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGTXVKNauoMagb4iy2KB-13" value="查询消息模板列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -105,7 +105,7 @@
         <mxCell id="RGTXVKNauoMagb4iy2KB-27" value="删除渠道账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="420" y="390" width="30" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RGTXVKNauoMagb4iy2KB-30" value="消息推送模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RGTXVKNauoMagb4iy2KB-30" value="消息推送模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="255" y="560" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGTXVKNauoMagb4iy2KB-34" value="用户全链路查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -122,7 +122,7 @@
             <mxPoint x="760" y="180" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RGTXVKNauoMagb4iy2KB-37" value="消息推送模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RGTXVKNauoMagb4iy2KB-37" value="消息推送模块" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="700" y="60" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RGTXVKNauoMagb4iy2KB-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-39" target="RGTXVKNauoMagb4iy2KB-41">
