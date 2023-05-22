@@ -1,9 +1,122 @@
-<mxfile host="app.diagrams.net" modified="2023-05-22T07:05:59.459Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" version="21.3.0" etag="E1b_yDiGItwMfopwePJv" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T07:19:50.400Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="Ka8_vhxT4HgNjccVie6G" version="21.3.0" type="github">
   <diagram name="第 1 页" id="jk-R8cC18qzZbHOJqEW3">
-    <mxGraphModel>
+    <mxGraphModel dx="1395" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RGTXVKNauoMagb4iy2KB-5" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-4" target="RGTXVKNauoMagb4iy2KB-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-7" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-4" target="RGTXVKNauoMagb4iy2KB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-4" target="RGTXVKNauoMagb4iy2KB-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-4" value="消息推送平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-6" target="RGTXVKNauoMagb4iy2KB-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-14" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-6" target="RGTXVKNauoMagb4iy2KB-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-6" target="RGTXVKNauoMagb4iy2KB-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-19" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-6" target="RGTXVKNauoMagb4iy2KB-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-6" value="消息模板模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-8" value="渠道账号模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-31" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-11" target="RGTXVKNauoMagb4iy2KB-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-32" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-11" target="RGTXVKNauoMagb4iy2KB-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-33" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-11" target="RGTXVKNauoMagb4iy2KB-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-11" value="消息链路查询模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-13" value="查询消息模板列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-15" value="新增修改消息模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-16" value="删除消息模板" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RGTXVKNauoMagb4iy2KB-17" target="RGTXVKNauoMagb4iy2KB-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-17" value="推送消息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-21" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="RGTXVKNauoMagb4iy2KB-25" source="RGTXVKNauoMagb4iy2KB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="440" as="targetPoint" />
+            <mxPoint x="590" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-22" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="RGTXVKNauoMagb4iy2KB-26" source="RGTXVKNauoMagb4iy2KB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="420" as="targetPoint" />
+            <mxPoint x="590" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-23" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="RGTXVKNauoMagb4iy2KB-27" source="RGTXVKNauoMagb4iy2KB-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-25" value="查询渠道账号列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-26" value="新增修改渠道账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-27" value="删除渠道账号" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-30" value="消息推送模块" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="405" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-34" value="用户全链路查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="610" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-35" value="消息模板链路追踪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RGTXVKNauoMagb4iy2KB-36" value="用户全链路查询" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="370" width="30" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
