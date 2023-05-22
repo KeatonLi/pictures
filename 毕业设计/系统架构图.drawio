@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-08T20:23:36.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.35" etag="-0CFzPma_soSzlWmRgei" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-22T09:49:48.887Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="O98vuqhSugVqmfZgDkJB" version="21.3.2" type="github">
   <diagram name="第 1 页" id="-W-8R0ckHdeFrU8T1a97">
-    <mxGraphModel dx="1095" dy="851" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1186" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -38,7 +38,7 @@
         <mxCell id="QMWtIcO35gSWXXG2NMT5-14" value="web" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="290" y="384" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="QMWtIcO35gSWXXG2NMT5-15" value="后台管理模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="QMWtIcO35gSWXXG2NMT5-15" value="后台模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="310" y="350" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QMWtIcO35gSWXXG2NMT5-17" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
@@ -48,7 +48,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="QMWtIcO35gSWXXG2NMT5-18" value="api" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="330" y="505" width="120" height="60" as="geometry" />
+          <mxGeometry x="510" y="384" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="QMWtIcO35gSWXXG2NMT5-19" value="消息接入层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="530" y="347" width="80" height="30" as="geometry" />
@@ -114,8 +114,11 @@
         <mxCell id="QMWtIcO35gSWXXG2NMT5-36" value="...更多" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="970" y="600" width="80" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="QMWtIcO35gSWXXG2NMT5-42" value="消息逻辑处理模块" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="QMWtIcO35gSWXXG2NMT5-42" value="逻辑处理层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="620" y="540" width="100" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="8i2F9Iz5VpiztuCNjEC--1" value="消息真正下发层" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="960" y="389" width="100" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
