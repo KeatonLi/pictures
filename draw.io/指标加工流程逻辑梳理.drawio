@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T08:47:28.734Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="9jTX5yqB2c662nIjSxqE" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T09:15:13.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="91pM9bpYyYseLC8-Nl2n" version="21.6.1" type="github">
   <diagram name="第 1 页" id="PYZtmiYzRfJrxJ9XXe3V">
     <mxGraphModel dx="1154" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -7,35 +7,68 @@
         <mxCell id="eztFIdGAr2qNL9vbDgbI-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CSStCupQpvHum1PfYjaq-1" target="eztFIdGAr2qNL9vbDgbI-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="CSStCupQpvHum1PfYjaq-1" value="发起指标加工流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;" parent="1" vertex="1">
+        <mxCell id="CSStCupQpvHum1PfYjaq-1" value="发起指标加工流程" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;gradientColor=none;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
           <mxGeometry x="120" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="eztFIdGAr2qNL9vbDgbI-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="120" y="270" width="120" height="60" as="geometry" />
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eztFIdGAr2qNL9vbDgbI-1" target="eztFIdGAr2qNL9vbDgbI-19">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="eztFIdGAr2qNL9vbDgbI-2" value="指标加工流程图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-1" value="调整项目组成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-2" value="指标加工流程图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;sketch=1;curveFitting=1;jiggle=2;fontSize=20;" vertex="1" parent="1">
           <mxGeometry x="284" y="20" width="266" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="eztFIdGAr2qNL9vbDgbI-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-5" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="240" y="120" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-7" value="绑定造价类别" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="293" y="97.5" width="140" height="40" as="geometry" />
+          <mxGeometry x="304.5" y="100" width="140" height="40" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-8" value="选择项目地点" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="445" y="105" width="90" height="25" as="geometry" />
+          <mxGeometry x="452" y="105" width="90" height="25" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-9" value="查询对应企业清单库，选择清单依据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="305" y="152" width="125" height="30" as="geometry" />
+          <mxGeometry x="312" y="153" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-10" value="选择单价构成：非全or全" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="149" width="150" height="30" as="geometry" />
+          <mxGeometry x="437" y="152" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-11" value="选择指标模版" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="305" y="210" width="125" height="30" as="geometry" />
+          <mxGeometry x="311" y="204" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-12" value="选择日期" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="425" y="210" width="125" height="30" as="geometry" />
+          <mxGeometry x="432" y="204" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-13" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="242" y="270" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-14" value="后端生成树形列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="262" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-16" value="匹对各个工程所属类别" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="299" y="301" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-17" value="填写表单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="150" width="130" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-18" value="校验是否全部工程匹对完毕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="292" y="342" width="161.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eztFIdGAr2qNL9vbDgbI-19" target="eztFIdGAr2qNL9vbDgbI-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-19" value="填写项目占地面积" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-21" value="填写表单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="448.5" width="130" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-22" value="匹对信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="290" width="130" height="23" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-23" value="填写项目基本信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+          <mxGeometry x="120" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
