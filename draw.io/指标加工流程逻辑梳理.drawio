@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-11T09:49:16.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="EKAQi6p8a0AzdTkliw1a" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-11T10:48:11.100Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="b1Zn6dFhlJZp3qolGu7g" version="21.6.1" type="github">
   <diagram name="第 1 页" id="PYZtmiYzRfJrxJ9XXe3V">
     <mxGraphModel dx="1154" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,16 +44,16 @@
           <mxGeometry x="242" y="270" width="50" height="100" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-14" value="后端生成树形列表" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="299" y="262" width="125" height="30" as="geometry" />
+          <mxGeometry x="357" y="264" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-16" value="匹对各个工程所属类别" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="299" y="301" width="125" height="30" as="geometry" />
+          <mxGeometry x="357" y="303" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-17" value="填写表单" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="600" y="150" width="130" height="23" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-18" value="校验是否全部工程匹对完毕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="292" y="342" width="161.5" height="28" as="geometry" />
+          <mxGeometry x="350" y="344" width="161.5" height="28" as="geometry" />
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eztFIdGAr2qNL9vbDgbI-19" target="eztFIdGAr2qNL9vbDgbI-23">
           <mxGeometry relative="1" as="geometry" />
@@ -90,6 +90,27 @@
         </mxCell>
         <mxCell id="eztFIdGAr2qNL9vbDgbI-30" value="查看指标" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;strokeColor=#9933FF;" vertex="1" parent="1">
           <mxGeometry x="120" y="940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-32" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="242" y="411" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-33" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="242" y="550" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-34" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="240" y="679" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-35" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="242" y="800" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-36" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="242" y="920" width="50" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-37" value="校验是否全部工程匹对完毕" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="333" y="407" width="161.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="eztFIdGAr2qNL9vbDgbI-38" value="采用Redis锁同步解决页面数据更新时的并发问题" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="304.5" y="437.75" width="271.25" height="46.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
