@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-07-12T07:06:21.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" version="21.6.1" etag="YwZxqO-V-ffZGdYPtzdR" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-12T07:14:42.428Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.67" etag="lM7mRYS3KHhK8HIf_OAB" version="21.6.1" type="github">
   <diagram name="第 1 页" id="RDqCYDXG6RgaDb9wK5Ka">
-    <mxGraphModel>
+    <mxGraphModel dx="1154" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CYltiOfpcbfsWVifrRyg-1" value="更新线程" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="100" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="CYltiOfpcbfsWVifrRyg-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-6" value="获取成功" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="CYltiOfpcbfsWVifrRyg-5">
+          <mxGeometry x="-0.2728" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-3" value="使用lock.tryLock方法尝试获取锁" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="170" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYltiOfpcbfsWVifrRyg-7" target="CYltiOfpcbfsWVifrRyg-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-7" value="查询项目组成设置所属类别" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYltiOfpcbfsWVifrRyg-8" target="CYltiOfpcbfsWVifrRyg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-8" value="查询造价树形及所属分类父节点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYltiOfpcbfsWVifrRyg-10" target="CYltiOfpcbfsWVifrRyg-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-10" value="dto转换、排序关联项目组成" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="450" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYltiOfpcbfsWVifrRyg-13" target="CYltiOfpcbfsWVifrRyg-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-13" value="查询历史数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="530" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="CYltiOfpcbfsWVifrRyg-15" target="CYltiOfpcbfsWVifrRyg-18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-15" value="进行批量插入更新" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="CYltiOfpcbfsWVifrRyg-18" value="释放锁lock.unLock()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="670" width="120" height="50" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
