@@ -1,17 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-08-03T06:13:46.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="L0UsL5ipPGQA40TI_wOI" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:15:14.128Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="GoXf5wE6ZnlSvN3wTSjz" version="21.6.5" type="github">
   <diagram name="第 1 页" id="en1b9JN9CGkcwLjMvGLF">
     <mxGraphModel dx="1154" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="rl5qSd94fKbYfl1gEutj-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
-          <mxGeometry x="220" y="290" width="345" height="140" as="geometry" />
+          <mxGeometry x="215" y="290" width="370" height="160" as="geometry" />
         </mxCell>
         <mxCell id="D8U3wDyhV-bBuljg_thL-1" value="MySQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="190" y="180" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="D8U3wDyhV-bBuljg_thL-2" value="对表的字段进行拼装、聚合" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="320" y="330" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="D8U3wDyhV-bBuljg_thL-3" value="" style="endArrow=classic;html=1;curved=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -22,7 +22,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D8U3wDyhV-bBuljg_thL-4" value="从数据库中读出供应商表、品牌表的相关数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="D8U3wDyhV-bBuljg_thL-4" value="检查同步标志位，从数据库中读供应商表、品牌表的需要同步的相关数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="290" y="180" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="rl5qSd94fKbYfl1gEutj-2" value="定时任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
