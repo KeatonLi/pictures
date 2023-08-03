@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T08:46:12.337Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="lwy5jGobBGYPzl7-MsM6" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-03T06:13:46.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36 Edg/114.0.1823.82" etag="L0UsL5ipPGQA40TI_wOI" version="21.6.5" type="github">
   <diagram name="第 1 页" id="en1b9JN9CGkcwLjMvGLF">
     <mxGraphModel dx="1154" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,8 +22,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="D8U3wDyhV-bBuljg_thL-4" value="从数据库中读出供应商表、品牌表、材料分类表的相关数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="205" width="130" height="55" as="geometry" />
+        <mxCell id="D8U3wDyhV-bBuljg_thL-4" value="从数据库中读出供应商表、品牌表的相关数据" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="290" y="180" width="130" height="55" as="geometry" />
         </mxCell>
         <mxCell id="rl5qSd94fKbYfl1gEutj-2" value="定时任务" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="300" width="60" height="30" as="geometry" />
@@ -39,6 +39,9 @@
         </mxCell>
         <mxCell id="rl5qSd94fKbYfl1gEutj-4" value="Elastic Search" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="630" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rl5qSd94fKbYfl1gEutj-5" value="将数据存入ES" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="510" y="180" width="130" height="55" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
