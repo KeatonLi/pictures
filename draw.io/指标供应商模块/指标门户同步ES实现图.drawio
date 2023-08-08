@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2023-08-08T13:47:08.582Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" version="21.6.5" etag="OfY6X4iP6DY7dfp3wAeU" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-08T13:53:14.743Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="ht7PjxAOXYKwzRWHZ5pg" version="21.6.5" type="github">
   <diagram name="第 1 页" id="8nH1i_PRTII-O-8vCRdY">
-    <mxGraphModel>
+    <mxGraphModel dx="1186" dy="788" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-9" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="HFW4yJJ5S0nXrKKxlO0W-1" target="HFW4yJJ5S0nXrKKxlO0W-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-1" value="vendorController" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="HFW4yJJ5S0nXrKKxlO0W-2" target="HFW4yJJ5S0nXrKKxlO0W-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-2" value="brandController" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="510" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-4" value="vendorService" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="280" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-6" value="brandService" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="510" y="380" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="HFW4yJJ5S0nXrKKxlO0W-7" target="HFW4yJJ5S0nXrKKxlO0W-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-12" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="HFW4yJJ5S0nXrKKxlO0W-7" target="HFW4yJJ5S0nXrKKxlO0W-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HFW4yJJ5S0nXrKKxlO0W-7" target="HFW4yJJ5S0nXrKKxlO0W-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-7" value="esVendorService" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="400" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-8" value="portalVendorApi" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="690" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-14" value="代理更新、删除品牌；更新、新增、删除供应商操作，在数据操作的同时更新ES索引数据" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="290" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="HFW4yJJ5S0nXrKKxlO0W-15" value="portal服务提供操作ES的REST接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="850" y="290" width="130" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
