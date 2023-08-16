@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-16T09:02:07.148Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="-1DNkP0U4SN4CnM4U_Yf" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-16T09:02:24.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.203" etag="3Z0sqzoaHzDR0ieJnPF6" version="21.6.8" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="1990" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -105,7 +105,7 @@
             <mxRectangle width="30" height="80" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="check_name varchar NOT NULL 检查项简称&#xa;check_content varchar NOT NULL 检查项内容&#xa;score_method tinyint NOT NULL 评分方式 1 问题数量; 2: 核增核减金额&#xa;question_score int 问题数量单个分值&#xa;remark varchar 备注" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
+        <mxCell id="C-vyLk0tnHw3VtMMgP7b-22" value="check_name varchar NOT NULL 检查项简称&#xa;check_content varchar 检查项内容&#xa;score_method tinyint 评分方式 1 问题数量; 2: 核增核减金额&#xa;question_score int 问题数量单个分值&#xa;remark varchar 备注" style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;labelBackgroundColor=none;strokeColor=#E07A5F;fontColor=#393C56;" parent="C-vyLk0tnHw3VtMMgP7b-20" vertex="1">
           <mxGeometry x="30" width="400" height="80" as="geometry">
             <mxRectangle width="400" height="80" as="alternateBounds" />
           </mxGeometry>
