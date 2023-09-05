@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-05T11:21:51.909Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="paw1O6vsytZjy02u4cxc" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-05T11:22:05.403Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="OD9SlVKShWlc_BZn-Dhe" version="21.7.2" type="github">
   <diagram name="第 1 页" id="YKOS1fqJZ7-1_1bdhY2_">
     <mxGraphModel dx="1140" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="290" y="320" width="110" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rFYBBZAon6ef2atkhW62-9" value="展示全费用与非全费用" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="530" y="360" width="135" height="10" as="geometry" />
+          <mxGeometry x="517" y="360" width="135" height="10" as="geometry" />
         </mxCell>
         <mxCell id="rFYBBZAon6ef2atkhW62-10" value="页签" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="220" y="90" width="60" height="30" as="geometry" />
