@@ -1,9 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T01:44:25.680Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" version="21.7.2" etag="p1G6AJvSsx1yJ7jrx4_S" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T01:50:25.149Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="56nmQ1fON3oyvHtHPdaa" version="21.7.2" type="github">
   <diagram name="第 1 页" id="16k-655BHXCyNk4jlRoW">
-    <mxGraphModel>
+    <mxGraphModel dx="1140" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nwjvndp7hKTSoQDyt6dj-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nwjvndp7hKTSoQDyt6dj-1" target="nwjvndp7hKTSoQDyt6dj-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nwjvndp7hKTSoQDyt6dj-1" value="根据门户id列表获得门户对象列表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nwjvndp7hKTSoQDyt6dj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nwjvndp7hKTSoQDyt6dj-3" target="nwjvndp7hKTSoQDyt6dj-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nwjvndp7hKTSoQDyt6dj-3" value="设置对比项名称个数" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="250" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nwjvndp7hKTSoQDyt6dj-5" value="根据模版id和门户id，获得最新的专业排序列表" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="390" width="120" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
