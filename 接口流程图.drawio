@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-06T02:08:12.077Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="n8uPc_96UK3uAcKo75tD" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-06T02:15:42.729Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.69" etag="8vFHdq4DECf7ff3VbFIC" version="21.7.2" type="github">
   <diagram name="第 1 页" id="16k-655BHXCyNk4jlRoW">
     <mxGraphModel dx="1140" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -125,7 +125,7 @@
             <mxPoint x="940" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SwWsapXYVksgjuBfi8HX-36" value="组装全费用数据" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="SwWsapXYVksgjuBfi8HX-36" value="组装数据" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="880" y="800" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SwWsapXYVksgjuBfi8HX-37" value="数据整理" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
@@ -166,11 +166,23 @@
             <mxPoint x="710" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="SwWsapXYVksgjuBfi8HX-47" value="组装非全费用数据" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+        <mxCell id="SwWsapXYVksgjuBfi8HX-47" value="组装数据" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="800" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="SwWsapXYVksgjuBfi8HX-48" value="数据整理" style="ellipse;whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="650" y="910" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SwWsapXYVksgjuBfi8HX-52" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="1040" y="380" width="20" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="SwWsapXYVksgjuBfi8HX-53" value="两个线程同时跑" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="650" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SwWsapXYVksgjuBfi8HX-55" value="传入非全费用标识+需要非全费用分析的对象列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="609" y="286" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SwWsapXYVksgjuBfi8HX-56" value="传入全费用标识+需要全费用分析的对象列表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="920" y="280" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
