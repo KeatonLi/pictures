@@ -1,9 +1,114 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T06:59:05.194Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" version="22.0.8" etag="TavTGgbKKgue35e45dAo" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T07:49:48.168Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="of6jAoOYseclOfUVX04w" version="22.0.8" type="github">
   <diagram name="第 1 页" id="XcguhHvhLcfJdZDpbNF1">
-    <mxGraphModel>
+    <mxGraphModel dx="2289" dy="759" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="90" y="110" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-5" value="语言选型Python，主要框架是开源的PyAutoGui" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="125" width="310" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-8" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="226.5" as="sourcePoint" />
+            <mxPoint x="440" y="225.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-9" value="获取所有进程名称，遍历进程列表，判断是否有进程名称包含&quot;QDJJ&quot;（斯维尔清单进程名称）" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-24" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-10" target="VwuTi81mU0uZaIsVO0Tc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-27" value="已打开" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VwuTi81mU0uZaIsVO0Tc-24">
+          <mxGeometry x="-0.6228" y="-6" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-25" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-10" target="VwuTi81mU0uZaIsVO0Tc-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-28" value="未打开" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VwuTi81mU0uZaIsVO0Tc-25">
+          <mxGeometry x="0.0769" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-10" value="识别软件是否打开" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="195" y="186" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-35" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-17" target="VwuTi81mU0uZaIsVO0Tc-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-36" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-17" target="VwuTi81mU0uZaIsVO0Tc-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-37" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-17" target="VwuTi81mU0uZaIsVO0Tc-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-38" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-17" target="VwuTi81mU0uZaIsVO0Tc-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-17" value="根据数据库表内容读文件存放目录，文件名后缀" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="414" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-26" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-18" target="VwuTi81mU0uZaIsVO0Tc-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-18" value="打开软件" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="260" y="310" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-19" value="软件如果在固定位置的话直接打开，不在固定位置可能要识别图像鼠标双击打开" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="480" y="315" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-20" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="345.5" as="sourcePoint" />
+            <mxPoint x="470" y="344.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-30" value="QDG4识别点击流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="540" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-31" target="VwuTi81mU0uZaIsVO0Tc-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="115" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-31" value="QDG3识别点击流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="540" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-33" target="VwuTi81mU0uZaIsVO0Tc-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-33" value="QDY3识别点击流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="195" y="540" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-34" target="VwuTi81mU0uZaIsVO0Tc-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-34" value="QDY4识别点击流程" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="315" y="540" width="90" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="VwuTi81mU0uZaIsVO0Tc-30" target="VwuTi81mU0uZaIsVO0Tc-43">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="720" as="sourcePoint" />
+            <mxPoint x="-5" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-43" value="导出成xml，并将xml文件地址回写数据库表" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="650" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-44" value="缺数据填数据？数据合并？" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="70" y="650" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-45" value="缺数据填数据？数据合并？" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="195" y="650" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VwuTi81mU0uZaIsVO0Tc-47" value="缺数据填数据？数据合并？" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="315" y="650" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
