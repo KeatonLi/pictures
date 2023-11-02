@@ -1,9 +1,68 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T02:52:05.144Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" version="22.0.8" etag="-haJ7kCMU4xwAoS8oFgm" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T06:20:43.320Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="8pM1fqKvNzH-yvMuQcX0" version="22.0.8" type="github">
   <diagram name="第 1 页" id="YQnPKKjmsOo8d71iIsRt">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-8" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="130" y="140" width="310" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="650" y="190" width="250" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-10" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nH7HNyztmFmxK0ZdcK3L-20" target="nH7HNyztmFmxK0ZdcK3L-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="450" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nH7HNyztmFmxK0ZdcK3L-2" target="nH7HNyztmFmxK0ZdcK3L-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="190" as="sourcePoint" />
+            <mxPoint x="620" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-2" value="读出需要更新文件信息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="300" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nH7HNyztmFmxK0ZdcK3L-3" target="nH7HNyztmFmxK0ZdcK3L-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-3" value="更新文件解析状态为已识别" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="414" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-6" value="1&amp;nbsp; 循环读取待解析文件信息" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="450" y="180" width="190" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-9" value="&lt;h1&gt;平台端&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-11" value="导出完毕 回调更新数据接口" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="475" y="450" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-14" value="读取导出完毕的文件，对原数据进行链接操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="514" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-15" value="&lt;h1&gt;RPA程序&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="210" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="nH7HNyztmFmxK0ZdcK3L-16" target="nH7HNyztmFmxK0ZdcK3L-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nH7HNyztmFmxK0ZdcK3L-16" target="nH7HNyztmFmxK0ZdcK3L-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-16" value="判定是否能进行解析导出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-17" value="更新文件状态为解析中" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="295" y="300" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-20" value="执行导出操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="670" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nH7HNyztmFmxK0ZdcK3L-22" value="读取需要导出的文件路径" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="475" y="340" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
