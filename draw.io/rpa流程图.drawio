@@ -1,9 +1,75 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T11:25:17.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" version="22.0.8" etag="Qva9yvI_waZ5x3oat1j6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-02T11:48:26.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="ixLTSD7zrrd702Trern9" version="22.0.8" type="github">
   <diagram name="第 1 页" id="_2sgJ_pG5cyG1wsAuUVU">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZGifbsvzwFF4E9hgn5Pm-1" target="ZGifbsvzwFF4E9hgn5Pm-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ZGifbsvzwFF4E9hgn5Pm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="515" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-14" value="没扫到程序，睡眠5秒钟" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZGifbsvzwFF4E9hgn5Pm-13">
+          <mxGeometry x="0.0537" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-1" value="扫描指定目录下的QBG3、QBG4文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="170" width="230" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZGifbsvzwFF4E9hgn5Pm-3" target="ZGifbsvzwFF4E9hgn5Pm-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-3" value="采用识别图像像素点的方式模拟鼠标点击完成导出操作" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="370" y="265" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="330" y="255" width="20" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-5" value="公司外网电脑测试：导出时间约10~20分钟" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="60" y="272.5" width="260" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-8" value="采用文件id作为文件名" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="95" y="182.5" width="210" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.47;entryY=-0.025;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ZGifbsvzwFF4E9hgn5Pm-9" target="ZGifbsvzwFF4E9hgn5Pm-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-9" value="导出完成，导出文件名称为文件id.xml" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="350" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZGifbsvzwFF4E9hgn5Pm-11" target="ZGifbsvzwFF4E9hgn5Pm-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-11" value="关闭软件页面，回归初始状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="410.5" y="430" width="223" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="170" as="targetPoint" />
+            <mxPoint x="529" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="522" y="540" />
+              <mxPoint x="522" y="600" />
+              <mxPoint x="699" y="600" />
+              <mxPoint x="699" y="80" />
+              <mxPoint x="514" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-17" value="删除原QBG3、QBG4文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="417" y="500" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
