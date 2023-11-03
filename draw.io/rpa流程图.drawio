@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-02T11:48:26.753Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="ixLTSD7zrrd702Trern9" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T02:07:13.007Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="vqtfmYkJaXUOCO5GcKnS" version="22.0.8" type="github">
   <diagram name="第 1 页" id="_2sgJ_pG5cyG1wsAuUVU">
     <mxGraphModel dx="1120" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -15,12 +15,12 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-14" value="没扫到程序，睡眠5秒钟" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZGifbsvzwFF4E9hgn5Pm-13">
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-14" value="没取到文件，睡眠5秒钟" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZGifbsvzwFF4E9hgn5Pm-13">
           <mxGeometry x="0.0537" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-1" value="扫描指定目录下的QBG3、QBG4文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="ZGifbsvzwFF4E9hgn5Pm-1" value="读取指定目录下的文件列表，取出QBG3、QBG4文件" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="400" y="170" width="230" height="50" as="geometry" />
         </mxCell>
         <mxCell id="ZGifbsvzwFF4E9hgn5Pm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZGifbsvzwFF4E9hgn5Pm-3" target="ZGifbsvzwFF4E9hgn5Pm-9">
