@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" modified="2023-08-15T07:11:37.473Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 Edg/115.0.1901.188" etag="bL8ADgxaLDkOU98vDca3" version="21.6.8" type="github">
+  <diagram name="第 1 页" id="7A_lC_w9Cb8jCHNOGvOA">
+    <mxGraphModel dx="1102" dy="796" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-3" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-2" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="240" y="90" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-1" value="" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="220" y="100" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-4" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="170" as="sourcePoint" />
+            <mxPoint x="100" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="170" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-5" value="填写完表单配置，点击保存按钮" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="329.5" as="sourcePoint" />
+            <mxPoint x="300" y="329.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="329.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-7" value="前端传入表单明细、范围设置、流程节点填写设置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="320" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-8" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="550" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-9" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="470" y="230" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-10" value="" style="endArrow=classic;html=1;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450" y="330" as="sourcePoint" />
+            <mxPoint x="560" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-11" value="更新表单表t_form_info范围设置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-12" value="批量删该表单下的明细，再插入" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3lPMLtOT_ev2U3uAMTwl-13" value="更新流程节点设置" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="570" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
