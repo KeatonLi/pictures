@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-06T07:26:19.373Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="MOa605AvGnnWqDBIgg4q" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-06T07:38:04.755Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.76" etag="L19wzB0rXzK20MBoyR6M" version="22.0.8" type="github">
   <diagram name="第 1 页" id="synG9edvfV9PkDUMer6I">
     <mxGraphModel dx="2289" dy="793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -82,10 +82,10 @@
           <mxGeometry x="500" y="676" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="UqrmRotj1n-Fzhbfwrq5-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
-          <mxGeometry x="750" y="220" width="20" height="190" as="geometry" />
+          <mxGeometry x="750" y="220" width="20" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="UqrmRotj1n-Fzhbfwrq5-34" value="1.保证多台任务机不会同时在导出同一个文件问题&lt;br&gt;2.保证文件不在下载到一半就发生导出操作&lt;br&gt;3." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="820" y="215" width="240" height="210" as="geometry" />
+        <mxCell id="UqrmRotj1n-Fzhbfwrq5-34" value="细节点&lt;br&gt;1.多台任务机不会同时在导出同一个文件问题&lt;br&gt;2.文件不在下载到一半就发生导出操作&lt;br&gt;3.文件不会在导出一半就执行上传操作&lt;br&gt;4.超时或发生异常进行异常处理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="790" y="362.5" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="UqrmRotj1n-Fzhbfwrq5-37" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="UqrmRotj1n-Fzhbfwrq5-11">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
