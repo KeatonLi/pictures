@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T08:30:32.408Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" version="23.1.5" etag="Kwu3wSKdozNPHoqv-wEH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-18T08:38:21.464Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="L_ChQ6Z3JfqzWHvMa_EP" version="23.1.5" type="github">
   <diagram name="第 1 页" id="evumCIxQTwwzN7WTq4LZ">
-    <mxGraphModel>
+    <mxGraphModel dx="1133" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="60" y="100" width="330" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-3" value="&lt;h1&gt;check-idCache-thread&lt;/h1&gt;&lt;p&gt;该线程主要作用是每分钟扫一次表，拿到所有的biz_tag，同时与内存中的cache进行对比，比对哪些是失效的，哪些是新增的&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="110" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="96AwvNyTWMUOjMyH6wGs-4" target="96AwvNyTWMUOjMyH6wGs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-4" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="96AwvNyTWMUOjMyH6wGs-5" target="96AwvNyTWMUOjMyH6wGs-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-5" value="查库拿到所有biz_tag" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="96AwvNyTWMUOjMyH6wGs-8" value="与内存中进行比对&lt;br&gt;删除已删掉的&lt;br&gt;新添加数据库里新增的" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="155" y="360" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
