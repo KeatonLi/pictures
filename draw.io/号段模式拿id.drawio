@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-18T09:13:47.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="eXpo8a8i4yj-AngoOTxn" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-18T09:14:38.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36 Edg/121.0.0.0" etag="dGiWTiA9CGUuTeqbtHt4" version="23.1.5" type="github">
   <diagram name="第 1 页" id="HXM_JeHgowRM0gspkjVM">
     <mxGraphModel dx="1133" dy="769" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -34,7 +34,7 @@
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-7" value="通过标识&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;双重检查&lt;/b&gt;&lt;br&gt;判断该tag对应的buffer是否已经初始化完成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="280" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="W7hYmiPCdTa4Qw8onWE4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7hYmiPCdTa4Qw8onWE4-9" target="W7hYmiPCdTa4Qw8onWE4-16">
+        <mxCell id="W7hYmiPCdTa4Qw8onWE4-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7hYmiPCdTa4Qw8onWE4-9" target="W7hYmiPCdTa4Qw8onWE4-17">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="340" y="390" as="targetPoint" />
           </mxGeometry>
@@ -48,26 +48,20 @@
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-14" value="双重检查即没拿锁时判断一次，然后在获取到锁之后再判断一次，这样可以在并发情况下最大化效率" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="430" y="210" width="210" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="W7hYmiPCdTa4Qw8onWE4-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7hYmiPCdTa4Qw8onWE4-16" target="W7hYmiPCdTa4Qw8onWE4-17">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="W7hYmiPCdTa4Qw8onWE4-16" value="如果未初始化&lt;br&gt;对该buffer进行初始化加载" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="280" y="390" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="W7hYmiPCdTa4Qw8onWE4-17" target="W7hYmiPCdTa4Qw8onWE4-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-17" value="判断当前buffer的号段使用是否超过10%,如果超过则起一个异步线程加载新号段" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="270" y="480" width="140" height="70" as="geometry" />
+          <mxGeometry x="270" y="390" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-21" value="将当前号段的值自增1返回" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="280" y="660" width="120" height="60" as="geometry" />
+          <mxGeometry x="280" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W7hYmiPCdTa4Qw8onWE4-22" target="W7hYmiPCdTa4Qw8onWE4-21">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W7hYmiPCdTa4Qw8onWE4-22" value="等待异步线程执行完毕" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="280" y="585" width="120" height="45" as="geometry" />
+          <mxGeometry x="280" y="495" width="120" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
