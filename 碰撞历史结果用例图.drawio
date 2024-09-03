@@ -13,7 +13,7 @@
             <mxPoint x="429" y="250" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6UEDGbg8A3KsRANq215A-3" value="查询历史碰撞检查记录" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="6UEDGbg8A3KsRANq215A-3" value="查询历史碰撞检查记录" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="429" y="180" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="6UEDGbg8A3KsRANq215A-4" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
@@ -22,8 +22,26 @@
             <mxPoint x="430" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="6UEDGbg8A3KsRANq215A-5" value="重命名/删除历史碰撞检查记录" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="6UEDGbg8A3KsRANq215A-5" value="重命名/删除历史碰撞检查记录" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="440" y="320" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6UEDGbg8A3KsRANq215A-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="340" as="sourcePoint" />
+            <mxPoint x="170" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6UEDGbg8A3KsRANq215A-7" value="查看历史碰撞记录详细" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="350" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6UEDGbg8A3KsRANq215A-8" value="查看历史碰撞记录详细输入规则" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6UEDGbg8A3KsRANq215A-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="280" as="sourcePoint" />
+            <mxPoint x="170" y="240" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
