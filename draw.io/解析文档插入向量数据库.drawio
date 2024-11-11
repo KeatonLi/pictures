@@ -25,8 +25,8 @@
         <mxCell id="V8Ts5n2w4OnkdCEIrP5f-6" value="jar程序" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="160" y="350" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="V8Ts5n2w4OnkdCEIrP5f-7" value="&lt;div&gt;使用相关解析框架&lt;/div&gt;按页为维度解析文档" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="250" y="340" width="120" height="60" as="geometry" />
+        <mxCell id="V8Ts5n2w4OnkdCEIrP5f-7" value="&lt;div&gt;使用相关解析框架&lt;/div&gt;按页为维度分片解析文档" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="240" y="340" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="V8Ts5n2w4OnkdCEIrP5f-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="V8Ts5n2w4OnkdCEIrP5f-8">
           <mxGeometry relative="1" as="geometry">
