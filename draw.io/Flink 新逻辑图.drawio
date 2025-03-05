@@ -78,6 +78,9 @@
         <mxCell id="PmTtEUhIxG9IhuHngzG6-30" value="用时间滑动窗口聚合统计&lt;br&gt;前 1 分钟与前 5 分钟的相关数据" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="440" y="390" width="180" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="PmTtEUhIxG9IhuHngzG6-31" value="根据 traceID 分区" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="352.5" width="100" height="35" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
