@@ -82,7 +82,7 @@
         <mxCell id="dIiSehlRAT5NI-YAiAKB-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k-FFmGOtWd7WNj8LAz9l-30" target="k-FFmGOtWd7WNj8LAz9l-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="k-FFmGOtWd7WNj8LAz9l-30" value="instance_id 字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 min&lt;/span&gt;&lt;div&gt;结果流 1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="k-FFmGOtWd7WNj8LAz9l-30" value="Endpoint_name&amp;nbsp;字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 min&lt;/span&gt;&lt;div&gt;结果流 1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="201.5" y="610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dIiSehlRAT5NI-YAiAKB-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k-FFmGOtWd7WNj8LAz9l-32" target="k-FFmGOtWd7WNj8LAz9l-35">
@@ -93,7 +93,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k-FFmGOtWd7WNj8LAz9l-32" value="peer 字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 min&lt;/span&gt;&lt;div&gt;结果流 2&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+        <mxCell id="k-FFmGOtWd7WNj8LAz9l-32" value="Endpoint_name&amp;nbsp;字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1 min&lt;/span&gt;&lt;div&gt;结果流 2&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="394" y="611" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k-FFmGOtWd7WNj8LAz9l-35" value="计算平均延时、请求数量、TP 指标等数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
