@@ -156,7 +156,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k-FFmGOtWd7WNj8LAz9l-32" value="instance_id 字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1 min&lt;/span&gt;&lt;div&gt;结果流 2&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="k-FFmGOtWd7WNj8LAz9l-32" value="peer 字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 min&lt;/span&gt;&lt;div&gt;结果流 3&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="240" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k-FFmGOtWd7WNj8LAz9l-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="k-FFmGOtWd7WNj8LAz9l-33" target="k-FFmGOtWd7WNj8LAz9l-35">
@@ -167,7 +167,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k-FFmGOtWd7WNj8LAz9l-33" value="peer 字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 min&lt;/span&gt;&lt;div&gt;&lt;div&gt;结果流 3&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+        <mxCell id="k-FFmGOtWd7WNj8LAz9l-33" value="instance_id 字段分组&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1 min&lt;/span&gt;&lt;div&gt;结果流 1&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="400" y="620" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="k-FFmGOtWd7WNj8LAz9l-35" value="计算平均延时、请求数量、TP 指标等数据" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -181,7 +181,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="k-FFmGOtWd7WNj8LAz9l-52" value="将计算后的流结果分别输出到 4个 Topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k-FFmGOtWd7WNj8LAz9l-51">
+        <mxCell id="k-FFmGOtWd7WNj8LAz9l-52" value="将计算后的流结果分别输出到 2个 Topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="k-FFmGOtWd7WNj8LAz9l-51">
           <mxGeometry x="0.2945" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
