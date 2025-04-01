@@ -58,6 +58,11 @@
             <mxPoint x="230" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="Ms6r0AXBp3TNDa4eyP1D-33" value="订阅队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="Ms6r0AXBp3TNDa4eyP1D-21">
+          <mxGeometry x="-0.3123" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Ms6r0AXBp3TNDa4eyP1D-24" value="下游服务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="266.25" y="340" width="110" height="50" as="geometry" />
         </mxCell>
@@ -87,6 +92,12 @@
             <mxPoint x="440" y="340" as="sourcePoint" />
             <mxPoint x="490" y="290" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Ms6r0AXBp3TNDa4eyP1D-34" value="订阅队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="321.2532081986613" y="307.9072955210081" as="geometry" />
+        </mxCell>
+        <mxCell id="Ms6r0AXBp3TNDa4eyP1D-35" value="订阅队列" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="400.0032081986613" y="299.9972955210081" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
