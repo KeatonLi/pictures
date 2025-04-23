@@ -130,8 +130,8 @@
         <mxCell id="gG01iXom-Wp9UEbhXPs3-29" value="覆盖率收集服务端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="820" y="150" width="150" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="gG01iXom-Wp9UEbhXPs3-30" value="goreplay 流量回放" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="90" y="70" width="110" height="40" as="geometry" />
+        <mxCell id="gG01iXom-Wp9UEbhXPs3-30" value="goreplay 流量回放能不能将用例顺序分组？" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="70" width="140" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
