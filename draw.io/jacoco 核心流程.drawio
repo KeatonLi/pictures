@@ -5,19 +5,19 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-38" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="510" y="100" width="180" height="730" as="geometry" />
+          <mxGeometry x="510" y="100" width="180" height="880" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-10" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="70" y="70" width="440" height="220" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-17" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="70" y="290" width="440" height="540" as="geometry" />
+          <mxGeometry x="70" y="290" width="440" height="690" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-7" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="330" y="80" width="180" height="750" as="geometry" />
+          <mxGeometry x="330" y="80" width="180" height="900" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-6" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="150" y="80" width="180" height="750" as="geometry" />
+          <mxGeometry x="150" y="80" width="180" height="900" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-2" value="目标服务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="150" y="70" width="180" height="40" as="geometry" />
@@ -88,17 +88,35 @@
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-30" value="Controller、Service&lt;br&gt;执行业务代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="560" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvxOHXNZiyXfdkXhn_nK-32" target="kvxOHXNZiyXfdkXhn_nK-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-32" value="ThreadLocal.get&lt;br&gt;获取 header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="362" y="560" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kvxOHXNZiyXfdkXhn_nK-36" value="ThreadLocal.get&lt;br&gt;获取 header" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="362" y="640" width="120" height="50" as="geometry" />
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvxOHXNZiyXfdkXhn_nK-36" target="kvxOHXNZiyXfdkXhn_nK-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-36" value="埋点数组&lt;br&gt;从 Map 中根据 heaer 获取&lt;br&gt;代码执行过就会置 true" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="348" y="640" width="148" height="50" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-37" value="Jacoco Agent TCPServer" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="510" y="70" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-39" value="Server 初始化" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="540" y="135" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-41" value="请求结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="670" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvxOHXNZiyXfdkXhn_nK-45" target="kvxOHXNZiyXfdkXhn_nK-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-45" value="定时器&lt;br&gt;获取埋点数组&lt;br&gt;汇报所有用例覆盖率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="800" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-46" value="&amp;nbsp;服务端解析 xml 文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="800" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
