@@ -109,14 +109,20 @@
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-41" value="请求结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="180" y="670" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="kvxOHXNZiyXfdkXhn_nK-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kvxOHXNZiyXfdkXhn_nK-45" target="kvxOHXNZiyXfdkXhn_nK-46">
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvxOHXNZiyXfdkXhn_nK-45" target="kvxOHXNZiyXfdkXhn_nK-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="kvxOHXNZiyXfdkXhn_nK-45" value="定时器&lt;br&gt;获取埋点数组&lt;br&gt;汇报所有用例覆盖率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="800" width="120" height="60" as="geometry" />
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-45" value="定时器&lt;br&gt;采用推送 socket 服务端模式汇报覆盖率" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="770" width="120" height="70" as="geometry" />
         </mxCell>
         <mxCell id="kvxOHXNZiyXfdkXhn_nK-46" value="&amp;nbsp;服务端解析 xml 文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="530" y="800" width="120" height="60" as="geometry" />
+          <mxGeometry x="530" y="880" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="kvxOHXNZiyXfdkXhn_nK-49" target="kvxOHXNZiyXfdkXhn_nK-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kvxOHXNZiyXfdkXhn_nK-49" value="获取所有类的插桩埋点数组&lt;br&gt;解析并进行拼装&lt;br&gt;生成 exec 文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="880" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
