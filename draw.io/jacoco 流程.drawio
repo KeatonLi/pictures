@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="_zUsROH8ab4SfC9B2NgK-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="520" y="110" width="440" height="340" as="geometry" />
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-11" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="540" y="110" width="440" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="_zUsROH8ab4SfC9B2NgK-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-8" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="15" y="110" width="440" height="340" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-1" target="_zUsROH8ab4SfC9B2NgK-5">
@@ -37,22 +37,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-12" value="获取报告请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="180" width="120" height="40" as="geometry" />
+          <mxGeometry x="770" y="220" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-13" target="_zUsROH8ab4SfC9B2NgK-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-13" value="分析源代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="250" width="120" height="40" as="geometry" />
+          <mxGeometry x="770" y="290" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_zUsROH8ab4SfC9B2NgK-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-11" target="_zUsROH8ab4SfC9B2NgK-8">
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-18" target="_zUsROH8ab4SfC9B2NgK-8">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="510" y="310" as="sourcePoint" />
             <mxPoint x="560" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-15" value="知道调用了哪些函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="600" y="320" width="120" height="40" as="geometry" />
+          <mxGeometry x="770" y="360" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-18" target="_zUsROH8ab4SfC9B2NgK-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-18" value="获取内存里面 dump&lt;br&gt;exec" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="255" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-19" value="&amp;nbsp;解析 exec 文件" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="770" y="150" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
