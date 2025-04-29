@@ -4,28 +4,55 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-11" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="110" width="440" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-8" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="110" width="440" height="340" as="geometry" />
+        </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-1" target="_zUsROH8ab4SfC9B2NgK-5">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="355" y="320" as="targetPoint" />
+            <mxPoint x="235" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-1" value="插桩代码 - 获取埋点数组" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="230" width="210" height="40" as="geometry" />
+          <mxGeometry x="130" y="280" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-2" target="_zUsROH8ab4SfC9B2NgK-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-2" value="分析 class 文件-生成插桩大小-分析插桩点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="240" y="150" width="230" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="_zUsROH8ab4SfC9B2NgK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-5" target="_zUsROH8ab4SfC9B2NgK-6">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="120" y="200" width="230" height="40" as="geometry" />
         </mxCell>
         <mxCell id="_zUsROH8ab4SfC9B2NgK-5" value="运行中捕获运行信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="310" width="210" height="40" as="geometry" />
+          <mxGeometry x="130" y="360" width="210" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_zUsROH8ab4SfC9B2NgK-6" value="获取报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="390" width="210" height="40" as="geometry" />
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-9" value="Jacoco Server" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="140" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-10" value="Jacoco Cli" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="530" y="130" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-12" target="_zUsROH8ab4SfC9B2NgK-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-12" value="获取报告请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="180" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-13" target="_zUsROH8ab4SfC9B2NgK-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-13" value="分析源代码" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="250" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-11" target="_zUsROH8ab4SfC9B2NgK-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="310" as="sourcePoint" />
+            <mxPoint x="560" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-15" value="知道调用了哪些函数" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="320" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
