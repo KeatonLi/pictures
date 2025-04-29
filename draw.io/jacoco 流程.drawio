@@ -18,8 +18,14 @@
         <mxCell id="_zUsROH8ab4SfC9B2NgK-2" value="分析 class 文件-生成插桩大小-分析插桩点" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="150" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="_zUsROH8ab4SfC9B2NgK-5" value="往上报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_zUsROH8ab4SfC9B2NgK-5" target="_zUsROH8ab4SfC9B2NgK-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-5" value="运行中捕获运行信息" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="310" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="_zUsROH8ab4SfC9B2NgK-6" value="获取报告" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="390" width="210" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
