@@ -133,7 +133,7 @@
             <mxPoint x="840" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZdkBtaMixL6KcBxgdkt5-84" value="查询上一个版本所有用例在这个函数中覆盖的所有路径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-84" value="查询上一个版本在这个函数中 的所有用例覆盖的所有路径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="690" y="370" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-86" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-85">
@@ -159,6 +159,15 @@
             <mxPoint x="400" y="510" as="sourcePoint" />
             <mxPoint x="200" y="510" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-91" value="当前版本 hash List" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="230" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-92" value="上一个版本 hash 列表" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-93" value="用例" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
