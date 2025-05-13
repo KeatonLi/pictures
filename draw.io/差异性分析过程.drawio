@@ -1,35 +1,20 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.3">
   <diagram name="第 1 页" id="N5p10LOYJ0tMsCSFKD8n">
-    <mxGraphModel dx="1668" dy="828" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1576" dy="782" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-1" value="sz-pt 精准测试" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="110" width="100" height="30" as="geometry" />
+          <mxGeometry x="350" y="110" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-2" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-1" source="ZdkBtaMixL6KcBxgdkt5-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="550" as="sourcePoint" />
-            <mxPoint x="680" y="300" as="targetPoint" />
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="600" y="300" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-14" value="用例预分析库 neo4j" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="640" y="110" width="110" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="ZdkBtaMixL6KcBxgdkt5-23" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdkBtaMixL6KcBxgdkt5-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="694.5" y="550" as="sourcePoint" />
-            <mxPoint x="694.5" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZdkBtaMixL6KcBxgdkt5-26" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-27">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="694.5" y="550" as="sourcePoint" />
-            <mxPoint x="694.5" y="140" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="ZdkBtaMixL6KcBxgdkt5-27" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="690" y="490" width="10" height="40" as="geometry" />
+          <mxGeometry x="781" y="109" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-30" value="&lt;span style=&quot;font-size: 19px;&quot;&gt;差异性分析过程&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="400" y="40" width="150" height="20" as="geometry" />
@@ -44,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-37" value="提交了一系列代码&lt;br&gt;产生多个 commit&lt;br&gt;触发新版本发布" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="270" y="130" width="140" height="30" as="geometry" />
+          <mxGeometry y="130" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-39" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -54,12 +39,126 @@
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-42" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-35">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="480" y="550" as="sourcePoint" />
-            <mxPoint x="480" y="140" as="targetPoint" />
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="400" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="ZdkBtaMixL6KcBxgdkt5-35" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="475" y="170" width="10" height="50" as="geometry" />
+          <mxGeometry x="395" y="170" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-44" value="&lt;br&gt;通过 git 获取修改的代码行数&lt;br&gt;用 javaparser 源代码解析框架&lt;br&gt;得知变更哪些函数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="230" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-59" value="源代码仓库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-60" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdkBtaMixL6KcBxgdkt5-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544.5" y="550" as="sourcePoint" />
+            <mxPoint x="544.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-61" value="字节码文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-62" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdkBtaMixL6KcBxgdkt5-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684.5" y="550" as="sourcePoint" />
+            <mxPoint x="684.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-63" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZdkBtaMixL6KcBxgdkt5-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835.44" y="550" as="sourcePoint" />
+            <mxPoint x="835.44" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-64" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="190" as="sourcePoint" />
+            <mxPoint x="540" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-67" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="544.5" y="550" as="sourcePoint" />
+            <mxPoint x="544.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-69" value="git clone 或者 git pull" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="445" y="160" width="75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-70" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZdkBtaMixL6KcBxgdkt5-65">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="240" as="sourcePoint" />
+            <mxPoint x="410" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-72" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="310" as="sourcePoint" />
+            <mxPoint x="670" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-78" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="684.5" y="550" as="sourcePoint" />
+            <mxPoint x="684.5" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-73" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="310" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-79" value="调用字节码分析，分析变更的函数" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-80" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ZdkBtaMixL6KcBxgdkt5-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="675" y="360" as="sourcePoint" />
+            <mxPoint x="405" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-81" value="返回最新的字节码树" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="330" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-82" value="&amp;nbsp;DFS 树得出所有路径 hash 值" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="360" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-83" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="410" as="sourcePoint" />
+            <mxPoint x="840" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-84" value="查询上一个版本所有用例在这个函数中覆盖的所有路径" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-86" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="ZdkBtaMixL6KcBxgdkt5-85">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="835.44" y="550" as="sourcePoint" />
+            <mxPoint x="835.44" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-85" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="831" y="410" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-87" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="830" y="460" as="sourcePoint" />
+            <mxPoint x="410" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-89" value="对比缺少的 hash 值，找出该路径对应的用例，推荐回归" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="265" y="460" width="115" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdkBtaMixL6KcBxgdkt5-90" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="510" as="sourcePoint" />
+            <mxPoint x="200" y="510" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
